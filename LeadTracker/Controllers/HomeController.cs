@@ -54,7 +54,7 @@ namespace LeadTracker.Controllers
                     worksheet.Cells[1, 7].Value = "Total Sale";
                     worksheet.Cells[1, 8].Value = "Upfront";
                     worksheet.Cells[1, 9].Value = "Remaining";
-                    Range headerRange = worksheet.Range["A1", "H1"];
+                    Range headerRange = worksheet.Range["A1", "I1"];
                     headerRange.Borders.LineStyle = XlLineStyle.xlContinuous;
                     headerRange.Borders.Weight = XlBorderWeight.xlMedium;
                     headerRange.Font.Size = 12;
